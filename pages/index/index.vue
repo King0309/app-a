@@ -77,7 +77,7 @@
 			},
 			
 			jsonPostRequest(){
-				console.info("准备发起post请求的");
+				console.info("准备发起post请求");
 				uni.request({
 					url: 'http://localhost:9091/async/uni/post/data',
 					method: 'POST',
